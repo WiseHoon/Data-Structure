@@ -44,12 +44,13 @@
 		char name[10];          / 이름
 		unsigned score;         / 점수
 		char grade;             / 성적 	
-                 }
+                }
            struct student mydata = {12341234 , "WIHOON" ,100,'A'}; /이렇게 입력하면
            mydata.studentID = 12341234; 
            mydata.name = "WIHOON";
            mydata.score = 100;
 	   mydata.grade = 'A'; /로 한번에 입력 가능하다.		
+
 <br/>
 <a id="here2" />
 <br/>
