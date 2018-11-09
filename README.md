@@ -29,27 +29,27 @@
  > Pointer Type 이란?
  
 	- 주소에 직접 접근하여 주소에 저장되어 있는 값을 호출한다.
-	<br/>ex) int a = 100; / a에 100이란 값이 저장되있다.
-	    <br/> int* ap;    / a와 자료형 int를 맞춰준다.
-	   <br/>  ap =&a;     / a의 주소값이 ap에 저장된다.
-	  <br/>   *ap = 100;
-	 <br/>   = *(&ap);    / *과 &는 서로 상쇄 된다. 
+	ex) int a = 100; / a에 100이란 값이 저장되있다.
+	    int* ap;    / a와 자료형 int를 맞춰준다.
+	    ap =&a;     / a의 주소값이 ap에 저장된다.
+	   *ap = 100;
+	    = *(&ap);    / *과 &는 서로 상쇄 된다. 
 <br/>	    
 
  > Struct Type 이란?
  
 	- 여러 자료를 하나의 단위로 묶어서 사용하는 자료형이다.
-	<br/>ex) struct stdudent{
-	<br/>	unsigned int studentID; / 학번
-	<br/>	char name[10];          / 이름
-	<br/>	unsigned score;         / 점수
-	<br/>	char grade;             / 성적 	
-            <br/>      }
-	<br/>    struct student mydata = {12341234 , "WIHOON" ,100,'A'}; /이렇게 입력하면
-	<br/>    mydata.studentID = 12341234; 
-	<br/>    mydata.name = "WIHOON";
-	<br/>    mydata.score = 100;
-	<br/>   mydata.grade = 'A'; /로 한번에 입력 가능하다.		
+	        ex) struct stdudent{
+		unsigned int studentID; / 학번
+		char name[10];          / 이름
+		unsigned score;         / 점수
+		char grade;             / 성적 	
+                 }
+           struct student mydata = {12341234 , "WIHOON" ,100,'A'}; /이렇게 입력하면
+           mydata.studentID = 12341234; 
+           mydata.name = "WIHOON";
+           mydata.score = 100;
+	   mydata.grade = 'A'; /로 한번에 입력 가능하다.		
 <br/>
 <a id="here2" />
 <br/>
