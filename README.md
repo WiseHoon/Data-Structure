@@ -7,16 +7,23 @@
  자료의 특성에 따라 저장, 처리 방법을 달리하는 작업을 의미한다. 경북대학교 전자공학과에서 2학년 2학기에 수강할 수 있다.
 
 ## 개요
+<br/>
 <a href="#here1">1.Pointer Type & Struct Type</a>
+<br/>
 <a href="#here2">2.STACK</a>
+<br/>
 <a href="#here3">3.QUEUE</a>
+<br/>
 <a href="#here4">4.LINKED LIST(llist)</a>
+<br/>
 <a href="#here5">5.NON LINEAR LIST(TREE)</a>
+<br/>
 <a href="#here6">6.GRAPH</a>
 
 <a id="here1" />
-<br/>
-1 Pointer Type & Struct Type
+
+ 1 Pointer Type & Struct Type
+ 
  > Pointer Type 이란?
 	주소에 직접 접근하여 주소에 저장되어 있는 값을 호출한다.
 	ex) int a = 100; / a에 100이란 값이 저장되있다.
@@ -24,6 +31,7 @@
 	     ap =&a; / a의 주소값이 ap에 저장된다.
 	     *ap = 100;
 	    = *(&ap); / *과 &는 서로 상쇄 된다. 
+	    
  > Struct Type 이란?
 	여러 자료를 하나의 단위로 묶어서 사용하는 자료형이다.
 	ex) struct stdudent{
@@ -39,7 +47,9 @@
 	    mydata.grade = 'A'; /로 한번에 입력 가능하다.		
 
 <a id="here2" />
+
 2 STACK
+
  > stack 이란?
  - 선입후출방식으로 자료를 저장,호출 할 수 있는 구조이다.(선입후출? 먼저 입력된 자료가 나중에 출력된다.)
  - PUSH로 자료를 입력한다. 
@@ -47,7 +57,9 @@
  - 02stack 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here3" />
+
 3 QUEUE
+
  > queue 란?
  - 선입선출방식으로 자료를 저장,호출 할 수 있는 구조이다.(선입선출? 먼저 입력된 자료가 먼저 출력된다.)
  - enqueue로 자료를 입력한다
@@ -55,7 +67,9 @@
  - 03queue 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here4" />
+
 4 LINKED LIST(llist)
+
 > LINKED LIST란?
  -입·출력순서에 상관없이 원하는 자료를 입출력 할 수 있는 구조이다.
  - CREATION으로 llist를 생성한다.
@@ -66,7 +80,9 @@
  - 04linked list 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here5" />
+
 5 NON LINEAR LIST(TREE)
+
  > tree란?
  - 선형적이지 않은 linked list이고 삼각형 모양의 구조이다.
  
@@ -84,7 +100,8 @@
 
 <a id="here6"/>
 6 GRAPH
- >- graph란? 
+
+ > graph란? 
  - 점(vertex : 자료)와 선(edge : 자료의 연관성)으로 이루어진 구조이다.
  - 06graph폴더에 c파일과 makefile이 저장되어있다.
  
