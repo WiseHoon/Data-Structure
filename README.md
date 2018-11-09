@@ -1,24 +1,18 @@
 # Data-Structure
 ## 소개
 
-자료구조란?
+### 자료구조란?
 
-### 컴퓨터에서 처리할 자료를 효율적으로 관리하고 구조화시키기 위한 학문이다. 
-### 자료의 특성에 따라 저장, 처리 방법을 달리하는 작업을 의미한다. 경북대학교 전자공학과에서 2학년 2학기에 수강할 수 있다.
+ 컴퓨터에서 처리할 자료를 효율적으로 관리하고 구조화시키기 위한 학문이다. 
+ 자료의 특성에 따라 저장, 처리 방법을 달리하는 작업을 의미한다. 경북대학교 전자공학과에서 2학년 2학기에 수강할 수 있다.
 
 ## 개요
-<br/>
-<a href="here1">1.Pointer Type & Struct Type</a>
-<br/>
-<a href="here2">2.STACK</a>
-<br/>
-<a href="here3">3.QUEUE</a>
-<br/>
-<a href="here4">4.LINKED LIST(llist)</a>
-<br/>
-<a href="here5">5.NON LINEAR LIST(TREE)</a>
-
-<a href="here6">6.GRAPH</a>
+<a href="#here1">1.Pointer Type & Struct Type</a>
+<a href="#here2">2.STACK</a>
+<a href="#here3">3.QUEUE</a>
+<a href="#here4">4.LINKED LIST(llist)</a>
+<a href="#here5">5.NON LINEAR LIST(TREE)</a>
+<a href="#here6">6.GRAPH</a>
 
 <a id="here1" />
 <br/>
