@@ -17,10 +17,11 @@
 <a href="here4">4.LINKED LIST(llist)</a>
 <br/>
 <a href="here5">5.NON LINEAR LIST(TREE)</a>
-<br/>
+
 <a href="here6">6.GRAPH</a>
 
 <a id="here1" />
+<br/>
 1. Pointer Type & Struct Type
  >Pointer Type 이란?
 	주소에 직접 접근하여 주소에 저장되어 있는 값을 호출한다.
