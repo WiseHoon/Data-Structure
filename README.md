@@ -1,8 +1,6 @@
 # Data-Structure
-Pointer Type &amp; Struct Type
-#__DATA STURCTURE__
 
-##__소개__
+##소개
 
 *자료구조란?
 
@@ -10,15 +8,27 @@ Pointer Type &amp; Struct Type
 ###자료의 특성에 따라 저장, 처리 방법을 달리하는 작업을 의미한다. 경북대학교 전자공학과에서 2학년 2학기에 수강할 수 있다.
 
 ##개요
-1.<br/><a href="here1">Pointer Type & Struct Type</a>
-2.<br/><a href="here2">STACK</a>
-3.<br/><a href="here3">QUEUE</a>
-4.<br/><a href="here4">LINKED LIST(llist)</a>
-5.<br/><a href="here5">NON LINEAR LIST(TREE)</a>
-6.<br/><a href="here6">GRAPH</a>
+1.
+<br/>
+<a href="here1">Pointer Type & Struct Type</a>
+2.
+<br/>
+<a href="here2">STACK</a>
+3.
+<br/>
+<a href="here3">QUEUE</a>
+4.
+<br/>
+<a href="here4">LINKED LIST(llist)</a>
+5.
+<br/>
+<a href="here5">NON LINEAR LIST(TREE)</a>
+6.
+<br/>
+<a href="here6">GRAPH</a>
 
 <a id="here1" />
-__1. Pointer Type & Struct Type__
+1. Pointer Type & Struct Type
  >Pointer Type 이란?
 	주소에 직접 접근하여 주소에 저장되어 있는 값을 호출한다.
 	ex) int a = 100; / a에 100이란 값이 저장되있다.
@@ -41,7 +51,7 @@ __1. Pointer Type & Struct Type__
 	    mydata.grade = 'A'; /로 한번에 입력 가능하다.		
 
 <a id="here2" />
-__2.STACK__
+**2.STACK**
  > stack 이란?
  - 선입후출방식으로 자료를 저장,호출 할 수 있는 구조이다.(선입후출? 먼저 입력된 자료가 나중에 출력된다.)
  - PUSH로 자료를 입력한다. 
@@ -49,7 +59,7 @@ __2.STACK__
  - 02stack 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here3" />
-__3.QUEUE__
+**3.QUEUE**
  > queue 란?
  - 선입선출방식으로 자료를 저장,호출 할 수 있는 구조이다.(선입선출? 먼저 입력된 자료가 먼저 출력된다.)
  - enqueue로 자료를 입력한다
@@ -57,7 +67,7 @@ __3.QUEUE__
  - 03queue 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here4" />
-__4.LINKED LIST(llist)__
+**4.LINKED LIST(llist)**
 > LINKED LIST란?
  -입·출력순서에 상관없이 원하는 자료를 입출력 할 수 있는 구조이다.
  - CREATION으로 llist를 생성한다.
@@ -68,7 +78,7 @@ __4.LINKED LIST(llist)__
  - 04linked list 폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here5" />
-__5.NON LINEAR LIST(TREE)__
+**5.NON LINEAR LIST(TREE)**
  > tree란?
  - 선형적이지 않은 linked list이고 삼각형 모양의 구조이다.
  
@@ -85,7 +95,7 @@ __5.NON LINEAR LIST(TREE)__
  - 05_3폴더에 c파일과 makefile이 저장되어있다.
 
 <a id="here6" />
-__6.GRAPH__ 
+**6.GRAPH**
  >- graph란? 
  - 점(vertex : 자료)와 선(edge : 자료의 연관성)으로 이루어진 구조이다.
  - 06graph폴더에 c파일과 makefile이 저장되어있다.
