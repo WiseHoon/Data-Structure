@@ -27,6 +27,7 @@
  1 Pointer Type & Struct Type
  <br/>
  > Pointer Type 이란?
+ 
 	- 주소에 직접 접근하여 주소에 저장되어 있는 값을 호출한다.
 	<br/>ex) int a = 100; / a에 100이란 값이 저장되있다.
 	    <br/> int* ap;    / a와 자료형 int를 맞춰준다.
@@ -36,6 +37,7 @@
 <br/>	    
 
  > Struct Type 이란?
+ 
 	- 여러 자료를 하나의 단위로 묶어서 사용하는 자료형이다.
 	<br/>ex) struct stdudent{
 	<br/>	unsigned int studentID; / 학번
