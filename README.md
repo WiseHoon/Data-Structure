@@ -20,6 +20,7 @@
 <br/>
 <a href="#here6">6.GRAPH</a>
 <br/>
+<a href="#here7">7.REPORT</a>
 <br/>
 <br/>
 <a id="here1" />
@@ -117,6 +118,8 @@
  - 점(vertex : 자료)와 선(edge : 자료의 연관성)으로 이루어진 구조이다.
  - 06graph폴더에 c파일과 makefile이 저장되어있다.
  
+ <a id="here7" />
+ <br/>
  7 REPORT
 
  > 자료구조를 활용한 과제 3개가 있다.
